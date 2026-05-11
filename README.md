@@ -1,22 +1,19 @@
-# Notification Microservice 🚀
+# OpenBluff User Microservice - Task 1
 
-A standalone, containerized microservice built with **Python** and **FastAPI** that handles notification logic. This project demonstrates the implementation of the single-responsibility principle in a microservices architecture.
+This is a production-ready standalone microservice built for the **@OpenBluff** internship. The service manages user data and is fully containerized using Docker for seamless deployment.
 
-## 🏗 Architecture
-The service is designed to be decoupled and portable:
-* **Framework:** FastAPI (Python 3.10)
-* **Containerization:** Docker
-* **Orchestration:** Docker Compose
-* **API Pattern:** RESTful POST endpoints
+## 🚀 Features
+- **RESTful API:** Versioned endpoints for scalability (`/api/v1/`).
+- **Containerized:** Built and orchestrated using Docker and Docker Compose.
+- **Health Monitoring:** Dedicated `/health` endpoint for service status.
+- **Professional Logging:** Integrated Python logging for monitoring container activity.
 
-## 🛠 Prerequisites
-Before running this service, ensure you have the following installed:
-* [Docker](https://www.docker.com/products/docker-desktop/)
-* [Docker Compose](https://docs.docker.com/compose/install/)
+## 🛠 Tech Stack
+- **Language:** Python 3.x
+- **Framework:** Flask
+- **Containerization:** Docker & Docker Compose
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone [https://github.com/AthmiS/notification-microservice.git](https://github.com/AthmiS/notification-microservice.git)
-cd notification-microservice
+## 📦 How to Run
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/AthmiS/notification-microservice.git](https://github.com/AthmiS/notification-microservice.git)
